@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean class="com.spring.springproject.Student" name="s1">
+   <property name='sid'>
+   <value>201</value>
+   </property>
+   <property name='sname'>
+   <value>Rani</value>
+   </property>
+   <property name='scity'>
+   <value>Satara</value>
+   </property>
+   
+   
+ </bean>
+ </beans>
